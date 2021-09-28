@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food/screens/getting_start.dart';
+import 'package:food/utils/constants.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -29,7 +30,7 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset("Assest/images/food.png"),
+            Image.asset(Constants.imageAssest("food.png")),
             const SizedBox(height: 8),
             const Text(
               "No waiting for food",
