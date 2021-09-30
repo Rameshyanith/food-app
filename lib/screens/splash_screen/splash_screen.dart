@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:food/screens/getting_start.dart';
 import 'package:food/utils/constants.dart';
+import 'package:food/utils/utils_function.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -14,8 +15,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
     Future.delayed(const Duration(seconds: 5), () {
-      Navigator.push(
-          context, MaterialPageRoute(builder: (context) => Gettingstart()));
+      UtilFunctions.navigateTo(context, Gettingstart());
     });
   }
 
