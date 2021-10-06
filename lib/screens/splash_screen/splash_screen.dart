@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:food/screens/getting_start.dart';
+import 'package:food/screens/splash_screen/getting_start.dart';
 import 'package:food/utils/constants.dart';
 import 'package:food/utils/utils_function.dart';
 
